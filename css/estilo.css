@@ -1,0 +1,50 @@
+.container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+ }
+header{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.Formulario{
+   display: grid;
+   border: solid 2px blue;
+   padding: 5px;
+   background: #f1f1f1;
+ }
+ p:before{
+    content: attr(type);
+    display: block;
+    
+ }
+ /* centrar boton */
+ .btnGuardar{
+   justify-content: center;
+   align-items: center;
+ 
+   background: greenyellow;
+   margin: 5px;
+   padding: 5px;
+   border-radius: 15px;
+ }
+ section{
+   display: grid;
+   justify-content: center;
+   align-items: center;
+ }
+ #typeId{
+   padding: 30px;
+ }
+
+
+ .btnJson{
+   background: rgb(60, 177, 244);
+   margin: 10px;
+   padding: 5px;
+   border-radius: 5px;
+   bottom: center;
+ }
+
